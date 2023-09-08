@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(0.25turn, #004cff, #0cc3c9, #a302fa);
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.users .container .u_wrapper .u_title {
+  font-size: 72px;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  display: flex;
+  font-weight: 600;
+  justify-content: center;
+}
+.users .container .u_wrapper .cards {
+  display: flex;
+  margin-top: 80px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.users .container .u_wrapper .cards .u_card {
+  width: 400px;
+  height: 300px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: -2px 2px 0px 2px rgba(27, 49, 65, 0.2);
+}
+.users .container .u_wrapper .cards .u_card:hover {
+  transition: 0.3s;
+  box-shadow: -2px 2px 0px 2px rgb(117, 140, 158);
+}
+.users .container .u_wrapper .cards .u_card .n_info {
+  margin-bottom: 50px;
+}
+.users .container .u_wrapper .cards .u_card .n_info .name {
+  font-size: 22px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+.users .container .u_wrapper .cards .u_card .n_info .nickname {
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+}
+.users .container .u_wrapper .cards .u_card .inf {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+}
+.users .container .u_wrapper .cards .u_card .inf a {
+  font-family: "Montserrat", sans-serif;
+  margin-left: 10px;
+}
+.users .container .u_wrapper .cards .u_card .buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  align-items: start;
+  justify-content: start;
+}
+.users .container .u_wrapper .cards .u_card .buttons button {
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #e97f22;
+  border: none;
+  border-radius: 10px;
+  background: rgb(206, 215, 224);
+}
+.users .container .u_wrapper .cards .u_card .buttons button a {
+  color: #e97f22;
+}/*# sourceMappingURL=style.css.map */
